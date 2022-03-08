@@ -13,7 +13,7 @@
 |Autum-Tool was made for Educational purposes|
 |-------------------------------------------------|
 This project was created only for good purposes and personal use.
-By using AstraaHome, you agree that you hold responsibility and accountability of any consequences caused by your actions.
+By using Autum-Tool, you agree that you hold responsibility and accountability of any consequences caused by your actions.
 
 ## Features
 - [x] - [Self Bot]() - Turn your discord account into a self bot.
