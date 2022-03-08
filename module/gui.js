@@ -1,0 +1,16 @@
+const chalk = require('chalk');
+
+function gui() {
+    console.log(`
+                     █████${chalk.blueBright("╗")} ██${chalk.blueBright("╗")}   ██${chalk.blueBright("╗")}████████${chalk.blueBright("╗")}██${chalk.blueBright("╗")}   ██${chalk.blueBright("╗")}███${chalk.blueBright("╗")}   ███${chalk.blueBright("╗")}    ████████${chalk.blueBright("╗")} ██████${chalk.blueBright("╗")}  ██████${chalk.blueBright("╗")} ██${chalk.blueBright("╗")}     
+                    ██${chalk.blueBright("╔══")}██${chalk.blueBright("╗")}██${chalk.blueBright("║")}   ██${chalk.blueBright("║")}${chalk.blueBright("╚══")}██${chalk.blueBright("╔══╝")}██${chalk.blueBright("║")}   ██${chalk.blueBright("║")}████${chalk.blueBright("╗")} ████${chalk.blueBright("║")}    ${chalk.blueBright("╚══")}██${chalk.blueBright("╔══╝")}██${chalk.blueBright("╔═══")}██${chalk.blueBright("╗")}██${chalk.blueBright("╔═══")}██${chalk.blueBright("╗")}██${chalk.blueBright("║")}     
+                    ███████${chalk.blueBright("║")}██${chalk.blueBright("║")}   ██${chalk.blueBright("║")}   ██${chalk.blueBright("║")}   ██${chalk.blueBright("║")}   ██${chalk.blueBright("║")}██${chalk.blueBright("╔")}████${chalk.blueBright("╔")}██${chalk.blueBright("║")}       ██${chalk.blueBright("║")}   ██${chalk.blueBright("║")}   ██${chalk.blueBright("║")}██${chalk.blueBright("║")}   ██${chalk.blueBright("║")}██${chalk.blueBright("║")}     
+                    ██${chalk.blueBright("╔══")}██${chalk.blueBright("║")}██${chalk.blueBright("║")}   ██${chalk.blueBright("║")}   ██${chalk.blueBright("║")}   ██${chalk.blueBright("║")}   ██${chalk.blueBright("║")}██${chalk.blueBright("║╚")}██${chalk.blueBright("╔╝")}██${chalk.blueBright("║")}       ██${chalk.blueBright("║")}   ██${chalk.blueBright("║")}   ██${chalk.blueBright("║")}██${chalk.blueBright("║")}   ██${chalk.blueBright("║")}██${chalk.blueBright("║")}     
+                    ██${chalk.blueBright("║")}  ██${chalk.blueBright("║")}${chalk.blueBright("╚")}██████${chalk.blueBright("╔╝")}   ██${chalk.blueBright("║   ╚")}██████${chalk.blueBright("╔╝")}██${chalk.blueBright("║ ╚═╝ ")}██${chalk.blueBright("║")}       ██${chalk.blueBright("║")}   ${chalk.blueBright("╚")}██████${chalk.blueBright("╔╝╚")}██████${chalk.blueBright("╔╝")}███████${chalk.blueBright("╗")}
+                    ${chalk.blueBright("╚═╝")}  ${chalk.blueBright("╚═╝ ╚═════╝    ╚═╝    ╚═════╝ ╚═╝     ╚═╝       ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝")}                                                             \n`)
+
+
+        console.log(`${chalk.yellowBright("------------------------------------------------------------------------------------------------------------------------")}\n https://github.com/SklyerX ${chalk.blueBright("|")}  https://github.com/SklyerX ${chalk.blueBright("|")}  https://github.com/SklyerX ${chalk.blueBright("|")} https://github.com/SklyerX\n${chalk.yellowBright("------------------------------------------------------------------------------------------------------------------------")}\n`)
+}
+
+module.exports = gui;

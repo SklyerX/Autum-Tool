@@ -1,0 +1,1 @@
+the python file for the dm purger will be in here once you run it from the console application
